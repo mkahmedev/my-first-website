@@ -1,3 +1,134 @@
-body{
-    background-color: aqua;
+*{
+    box-sizing: border-box;
+}
+.img{
+    float: left;
+    height: 500px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    
+
+}
+.row{
+    content: "";
+    display: inline
+    clear: both;
+    
+    margin-left:25px;
+    padding:10px;
+    
+}
+.heding{
+    
+    color: rgb(26, 30, 32);
+    text-align: center;
+    text-transform: uppercase;
+}
+.hed{
+    background-image: url(img/jaf.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: #1b1b1b;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+    
+}
+.kolom{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.mim{
+    color: rgb(68, 68, 228);
+}
+.pani{
+    margin: 100px;
+}
+.adi{
+    color: blue;
+    margin-left: 200px;
+}
+
+.jonggol{
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+}
+.nani{ 
+text-align: center;}
+.mam img{
+    width: 550px;
+    height: 350px;
+     margin-left: 300px;
+}
+.mam h1{
+    color: blue;
+     margin-left: 300px;
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.mam p{
+    margin-left: 220px;
+}
+.mami img {
+    
+    width: 550px;
+    height: 350px;
+     margin-left: 300px;
+
+
+}
+.mami{
+    margin-top: 100px;
+}
+.mami h1{
+    
+    margin-left: 300px ;
+    color: blue;
+}
+.mami p{
+    margin-left: 200px;
+}
+.beda h1{
+    margin-left: 300px;
+    color: blue;
+
+}
+.beda img{
+    width: 550px;
+    height: 350px;
+     margin-left: 300px;
+
+
+}
+.beda{
+    margin-top: 100px;
+}
+
+.end{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1b1b1b;
+    color: antiquewhite;
+}
+p:hover{
+    
+    
+    color: rgb(66, 61, 65);
+    filter: grayscale(1%);
+    
+}
+h1:hover{
+    color: cadetblue;
+    
+}
+img:hover{
+    transform: scale(1.03);
+    filter: grayscale(0%);
 }
